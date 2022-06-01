@@ -1,5 +1,5 @@
-const Decentragram = artifacts.require("Decentragram");
+const Helpchain = artifacts.require("Helpchain");
 
 module.exports = function(deployer) {
-  // Code goes here...
+  deployer.deploy(Helpchain);
 };
